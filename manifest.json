@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2
+	
+	,"name": "Friendfeed Share Button"
+	,"description": "really #frf share. w/o reg. powered by frf bookmarklet"
+	,"background": {
+		"page": "background.html"
+	}
+	,"browser_action": {
+		"default_icon": "icon.png"
+		,"default_title": "Real Friendfeed Sharepost"
+	}
+	,"icons": {
+		"128": "icon-128.png"
+		,"48": "icon-48.png"
+		,"32": "icon-32.png"
+	}
+	,"permissions": [ "tabs", "http://*/*", "https://*/*" ]
+	,"version": "1.2"
+	,"update_url": "https://raw.github.com/etconsilium/friendfeed-button/master/update.xml"
+}
