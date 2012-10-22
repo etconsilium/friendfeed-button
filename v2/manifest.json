@@ -4,18 +4,20 @@
 	,"name": "Friendfeed Share Button"
 	,"description": "really #frf share. w/o reg. powered by frf bookmarklet"
 	,"background": {
-		"page": "background.html"
+		//"page": "background.html"	//	одновременно нельзя
+		"scripts": ["background.js"] 
 	}
+	//,"content_security_policy": [POLICY STRING GOES HERE]
 	,"browser_action": {
 		"default_icon": "icon.png"
-		,"default_title": "Real Friendfeed Sharepost"
+		,"default_title": "Real Friendfeed Sharepost v1.2.4"
 	}
 	,"icons": {
 		"128": "icon-128.png"
 		,"48": "icon-48.png"
 		,"32": "icon-32.png"
 	}
-	,"permissions": [ "tabs", "http://*/*", "https://*/*" ]
-	,"version": "1.2"
+	,"permissions": [ "background", "tabs", "http://*/*", "https://*/*" ]
+	,"version": "1.2.4"
 	,"update_url": "https://raw.github.com/etconsilium/friendfeed-button/master/update.xml"
 }

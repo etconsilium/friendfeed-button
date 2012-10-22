@@ -1,0 +1,17 @@
+{
+	"name": "Friendfeed Share Button"
+	,"description": "really #frf share. w/o reg."
+	,"background_page": "background.html"
+	,"browser_action": {
+		"default_icon": "icon.png"
+		,"default_title": "Real Share on Friendfeed"
+//		,"default_popup": "popup.html"
+	}
+	,"icons": {
+		"128": "icon-128.png"
+		,"48": "icon-48.png"
+		,"32": "icon-32.png"
+	}
+	,"permissions": [ "tabs", "http://*/*", "https://*/*" ]
+	,"version": "0.1"
+}
