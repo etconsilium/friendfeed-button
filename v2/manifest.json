@@ -1,11 +1,11 @@
 {
 	"manifest_version": 2
-	
+
 	,"name": "Friendfeed Share Button"
 	,"description": "really #frf share. w/o reg. powered by frf bookmarklet"
 	,"background": {
 		//"page": "background.html"	//	одновременно нельзя
-		"scripts": ["background.js"] 
+		"scripts": ["background.js"]
 	}
 	//,"content_security_policy": [POLICY STRING GOES HERE]
 	,"browser_action": {

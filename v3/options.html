@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FriendFeed &amp; Co, настройки</title>
+    <link rel="stylesheet" type="text/css" href="chrome-bootstrap.css">
+    <script src="common.js"></script>
+    <script src="options.js"></script>
+</head>
+<body class="chrome-bootstrap">
+<div class="frame">
+    <div class="navigation">
+        <h1>FriendFeed &amp;&nbsp;Co.</h1>
+        <ul class="menu">
+            <li>&nbsp;</li>
+            <li>использованы скрипты:</li>
+            <li>
+                <a href="https://github.com/davidmz/friendfeed-and-co" target="_blank">@davidmz</a>
+            </li>
+            <li>
+                <a href="https://gist.github.com/falsefalse/dc7bb726add8b19a741c/#file-share-js" target="_blank">@falsefalse</a>
+            </li>
+            <li>
+                <a href="https://github.com/etconsilium/friendfeed-button" target="_blank">@feedetcontra</a> asm'd
+            </li>
+        </ul>
+    </div>
+    <div class="mainview view">
+        <div class="selected">
+            <header>
+                <h1>Настройки</h1>
+            </header>
+            <div class="content loading">
+                Загрузка&hellip;
+            </div>
+            <div class="content settings" style="display: none;">
+                <p>
+                    <label>
+                        <input type="checkbox" value="fixNames">
+                        Юзернеймы заменяются на логины пользователей.
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" value="replyLinks">
+                        По клику на «облачко» (или юзерпик) около комментария открывается поле ввода и в него
+                        вставляется
+                        @login автора комментария. Если при клике зажата клавиша Ctrl (Cmd на маках), то вставляется строка вида
+                        ^^^ — «ссылка» на кликнутый комментарий. Вместе с Ctrl/Cmd можно также зажать и Shift.
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" value="withAvatars">
+                        «Облачко» около комментария заменяется на юзерпик его автора (работает только если включена
+                        предыдущая галочка).
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" value="openImages">
+                        Изображения, прикреплённые к постам, открываются в браузере (по умолчанию FF их скачивает на
+                        диск).
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" value="lightBoxedImages">
+                        Изображения по возможности открываются в «лайтбоксе» на странице FF.
+                        Ссылка из лайтбокса ведёт на страницу изображения.
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" value="killDuck">
+                        В теме “Duck Hunt” не показывается утка.
+                    </label>
+                </p>
+
+                <p>
+                    <button id="save-settings">Сохранить настройки</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
